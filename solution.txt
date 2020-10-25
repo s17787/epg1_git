@@ -1,0 +1,11 @@
+forked by github
+git clone https://github.com/s17787/epg1_git.git
+cd epg1_git
+git branch hw-s17787
+git checkout rebase-me
+git rebase hw-s17787
+git checkout hw-s17787
+git merge rebase-me
+git checkout merge
+git checkout hw-s17787
+git merge merge-me
